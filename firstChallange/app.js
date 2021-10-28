@@ -10,8 +10,8 @@ console.log(valueofInput)
     .then(data => {console.log(data)
         let list=data.articles
         let result=list.map(function (listing) {
-            return `<p>${listing.title}</p>
-            <p>${listing.author}</p>
+            return `<p> <span>  ${listing.title} <span> </p>
+            <p> ${listing.author} </p>
             <p>${listing.description}</p>`
         }).join("");
     main.innerHTML=result
