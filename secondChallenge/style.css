@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 5vw;
+    height: 8vh;
+}
+ul {
+    list-style: none;
+}
+button {
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+}
+button:hover{
+background-color: black;
+}
